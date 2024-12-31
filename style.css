@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", serif;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* navbar */
+header{
+    padding: 25px 0;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+nav .name{
+    display: flex;
+    align-items: center;
+}
+.link{
+    display: flex;
+
+}
+
+.link li{
+    margin: 0 5px;
+}
+
+
+.login{
+    display: flex;
+    align-items: center;
+}
+.login li{
+    padding: 0 10px;
+    display: flex;
+}
+
+.login img{
+    width: 22px;
+}
+
+.login li:nth-child(2){
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 14px;
+
+}
+
+.login li:nth-child(1){
+    background-color: #ece7e7;
+    margin-right: 10px;
+    padding: 5px 16px;
+    border-radius: 14px;
+}
+
+
+/*    navbar ends */
+
+
+
+
+/*...........  Banner Section........ */
+.banner{
+    height: 600px;
+    background-image: url(./images/bggg.png);
+    background-size: cover;
+}
+
+.banner-input{
+    width: 750px;
+    height: 244px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.banner-input h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner .input-list{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.input-list li{
+    padding: 4px 25px;
+    background-color: rgb(246, 242, 242);
+    border-radius: 18px;
+}
+
+
+.banner .input2{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.banner .input2 li{
+    width: 500px;
+    background-color: rgb(246, 242, 242);
+    text-align: center;
+    padding: 8px;
+    border-radius: 18px;
+}
+
+.banner .input2 button{
+    padding: 5px 25px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(114, 228, 190);
+    font-weight: 700;
+}
+.why{
+    color: white;
+    position: absolute;
+    bottom: 160px;
+    left: 695px;
+}
+.why a{
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+/* .............Banner section End........... */
+
+
+
+/* ....... But-Sell ........ */
+.buy-sell{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #F3C623;
+}
+.buy-sell p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.buy-sell .coin{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.coin li{
+    margin: 0 30px;
+    
+}
+
+  /* .......... BUY-SELL ends */
+
+
+  /*  ....... Festures .................. */
+.features{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+.features .feat{
+    
+    padding: 40px;
+    font-size: 25px;
+}
+
+.fe-fe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;   
+}
+
+.fe-fe div p{
+    padding: 12px 0;
+    font-weight: bold;
+}
+
+.fe-fe div a{
+    color: black;
+}
+
+
+.last{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.last button{
+    background-color: inherit;
+    padding: 10px 18px;
+    border-radius: 18px;
+}
+
+/*  ............. Features Ends */
+
+
+/*  ....Value list .... */
+
+.value-list{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.di{
+    width: 0.5px;
+    height: 501px;
+    background-color: rgb(113, 113, 113);
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+.buy{
+    font-size: 20px;
+    padding: 80px 0;
+    margin-bottom: 30px;
+}
+
+.sell{
+    font-size: 20px;
+    padding: 80px 0;
+    margin-bottom: 30px;
+}
+
+.chart img{
+    width: 50px;
+}
+.chart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.offers{
+    
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+.offers span{
+    border: 1px solid black;
+    padding: 8px 20px;
+    background-color: black;
+    border-radius: 16px;
+    font-weight: 500;
+    color: rgb(250, 241, 241);
+}
+
+/* ........Value-list ends. ......... */
+
+
+
+
+/*  ...........SingUp ............ */
+.sign-up{
+    text-align: center;
+    border-top: 1px solid black;
+    background-color: #CFBAFF;
+    padding: 40px 0;
+}
+.sign-up p{
+    font-size: 45px;
+    margin: 30px 0;
+}
+
+.sign-up div{
+    margin-top: 8e0px;
+}
+
+.sign-up div button{
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 18px;
+}
+
+/* ...........Sign Up end */
+
+
+.foot{
+    background-color: black;
+    color: rgb(211, 209, 209);
+    padding: 30px 10px;
+    
+}
+
+.fo-fo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.foot div h4{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.foot div li{
+    padding: 2px 0;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(173, 170, 170);
+    margin: 10px 0;
+}
+.foot span{
+   text-align: center;
+  padding: 0px 10px;
+    color: rgb(251, 243, 243);
+    display: flex;
+    font-size: 12px;
+}
+
+
+
+.fe-fe .divider{
+    width: 100px;
+    height:2px;
+    background-color: rgb(101, 100, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+}
+
+
+
+/* //////////////////// Responsive /////// */
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+
+    /* navbar */
+header{
+    padding: 20px 10px;
+    
+}
+
+
+
+.name img{
+    width: 100px;
+}
+.link{
+    display: none;
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+.login li{
+    padding: 0 10px;
+    display: flex;
+}
+
+.login img{
+    display: none;
+}
+
+.login li:nth-child(2){
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 14px;
+
+}
+
+.login li:nth-child(1){
+    background-color: #ece7e7;
+    margin-right: 5px;
+    padding: 5px 15px;
+    border-radius: 14px;
+}
+
+
+/*    navbar ends */
+
+
+
+/*...........  Banner Section........ */
+.banner{
+    height: 400px;
+    background-image: url(./images/bggg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-input{
+    width: 300px;
+    height: 244px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.banner-input h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.banner .input-list{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    
+    
+}
+.input-list li{
+    padding: 4px 25px;
+    background-color: rgb(246, 242, 242);
+    border-radius: 18px;
+}
+
+
+.banner .input2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.banner .input2 li{
+    width: 300px;
+    background-color: rgb(246, 242, 242);
+    text-align: center;
+    padding: 8px;
+    border-radius: 18px;
+}
+
+.banner .input2 button{
+    padding: 5px 2px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(114, 228, 190);
+    font-weight: 700;
+    width: 200px;
+}
+.why{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 130px;
+    
+}
+
+
+/* .............Banner section End........... */
+
+.coin li{
+    margin: 0 15px;
+    
+}
+
+.coin li img{
+    width: 35px;
+}
+
+  /* .......... BUY-SELL ends */
+
+
+
+    /*  ....... Festures .................. */
+.features{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+.features .feat{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 25px;
+}
+
+.fe-fe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;   
+}
+.fe-fe .divider{
+    display: none;
+
+}
+/*  ............. Features Ends */
+/*  ....Value list .... */
+
+.value-list{
+    padding: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+   
+}
+
+.di{
+  display: none;
+}
+.buy{
+    font-size: 20px;
+    padding: 80px 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.sell{
+    font-size: 20px;
+    padding: 80px 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.chart img{
+    width: 40px;
+}
+.chart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+/* ........Value-list ends. ......... */
+
+
+
+/*  ...........SingUp ............ */
+.sign-up{
+    text-align: center;
+    border-top: 1px solid black;
+    background-color: #CFBAFF;
+    padding: 40px 8px;
+}
+.sign-up p{
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+/* ...........Sign Up end */
+
+.fo-fo{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.fo-fo div img{
+    display: flex;
+    justify-content: center;
+  margin-top: 70px;
+
+
+}
+
+  }
